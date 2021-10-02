@@ -1,0 +1,7 @@
+-- need to pass XGET parameter to get contnet of a webpage
+
+curl -XGET 'https://www.google.com/'
+
+--Alternatively you can also use
+
+curl 'https://www.google.com/'
