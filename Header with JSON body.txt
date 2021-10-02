@@ -1,0 +1,6 @@
+-- -H parameter is used to specify header and then the header value is specified in double quotes.
+-- body content is specified after -d
+
+curl -XPOST -H "Content-type: application/json" -d '{
+"name": "John"
+}' 'https://www.google.com/'
