@@ -1,0 +1,3 @@
+-- here ?name=john is the query parameter
+
+curl --location --request GET 'https://www.google.com?name=john'
